@@ -1,3 +1,11 @@
 {
-  "extends": "next/core-web-vitals"
+	"extends": "next/core-web-vitals",
+	"rules": {
+		"semi": ["error", "always"], // Обязательное использование точки с запятой
+		"quotes": ["error", "single"], // Обязательное использование одинарных кавычек
+		"no-unused-vars": "warn", // Предупреждение о неиспользуемых переменных
+		"no-console": "warn", // Предупреждение о использовании console.log
+		"react/react-in-jsx-scope": "off", // Отключить проверку react в scope (не нужно в Next.js)
+		"jsx-a11y/anchor-is-valid": "off" // Отключить правило проверки ссылок (нужно для Next.js <Link>)
+	}
 }

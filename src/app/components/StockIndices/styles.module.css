@@ -1,0 +1,51 @@
+.title {
+  text-align: center;
+  font-weight: 700;
+  margin-top: 40px;
+}
+
+.error {
+  color: red;
+  font-weight: 700;
+  text-align: center;
+}
+
+.loading {
+	font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+	margin: 20px 0;
+}
+
+.сhartTooltip {
+  border: 1px solid #f5f5f5;
+  background-color: rgba(255, 255, 255, 255);
+  padding: 10px;
+  color: #000;
+}
+
+.tooltip_name {
+  font-weight: 700;
+  color: #2de09d;
+  margin: 4px 0;
+}
+
+.tooltip_date {
+  font-weight: 700;
+  color: #f9bc1a;
+  margin: 4px 0;
+}
+
+.tooltip_price {
+  color: #8884d8;
+  margin: 4px 0;
+}
+
+.tooltip_hight {
+  color: #82ca9d;
+  margin: 4px 0;
+}
+.tooltip_low {
+  color: #db4343;
+  margin: 4px 0;
+}
